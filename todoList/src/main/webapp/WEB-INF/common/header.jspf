@@ -1,0 +1,37 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Todos</title>
+<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<style>
+html {
+  position: relative;
+  min-height: 100%;
+  overflow-x:hidden;
+}
+
+body {
+  margin-bottom: 60px;
+  overflow-x:hidden; 
+}
+
+.footer {
+	position: absolute;
+	left: 0;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	background-color: #69A3D6;
+	height: 60px;
+}
+
+.nav {
+	background-color: #69A3D6
+}
+</style>
+</head>
+
+<body>

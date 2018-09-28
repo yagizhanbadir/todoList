@@ -1,0 +1,14 @@
+<nav class="navbar navbar-default">
+
+		<a href="http://www.ekomera.com.tr/" target="_blank" class="navbar-brand">Ekomera</a>
+
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="/NewEditedProject/list-todos.do">Home</a></li>
+			<li><a href="/NewEditedProject/list-todos.do">Todos</a></li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="/NewEditedProject/logout.do">Logout</a></li>
+		</ul>
+
+	</nav>
