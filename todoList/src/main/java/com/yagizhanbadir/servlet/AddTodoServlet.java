@@ -34,7 +34,7 @@ public class AddTodoServlet extends HttpServlet {
 		String category = request.getParameter("category");
 		String userUuid = (String) request.getSession().getAttribute("userUuid");
 
-		if (!todo.trim().equals("") & !todo.trim().equals("")) {
+		if (!todo.trim().equals("") & !category.trim().equals("")) {
 			todoService.addTodo(userUuid, todo, category);
 		}
 
